@@ -6,7 +6,7 @@
 
 最终效果预览
 
-![Visual Studio Code](https://static.oschina.net/uploads/img/201803/29173755_Em2f.png "Visual Studio Code")
+![Visual Studio Code](./preview.png "Visual Studio Code")
 
 > PS：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 定制，详见[自定义配置](./settings.json)。
 
@@ -54,7 +54,7 @@
 
 - PHP Debug
 
-    > PHP 断点调试，详细配置[单击这里](https://my.oschina.net/antsky/blog/1648698)
+    > PHP 断点调试，详细配置[单击这里](./php_xdebug.md)
 
 - PHP DocBlocker
 
