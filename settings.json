@@ -58,7 +58,7 @@
             // 当前行
             "editor.lineHighlightBackground": "#32363d",
             // 行号栏的当前行
-            "editorActiveLineNumber.foreground": "#9CA5B4",
+            "editorLineNumber.activeForeground": "#9CA5B4",
             // 行号
             "editorLineNumber.foreground": "#777",
             // 标尺
@@ -88,17 +88,22 @@
     // 隐藏右下角的笑脸、反馈按钮
     "workbench.statusBar.feedback.visible": false,
 
+    // 左侧列表显示横向滚动条（需要重新启动软件）
+    "workbench.tree.horizontalScrolling": true,
+
     // 隐藏 tab 栏文件名左侧的文件类型图标
     // "workbench.editor.showIcons": false,
 
     // 使用 ctrl 或 command 多选
     "editor.multiCursorModifier": "ctrlCmd",
 
+    // 新打开 vscode 时，编辑器创建新文件
     "workbench.startupEditor": "newUntitledFile",
 
+    // 文件对比窗口，忽略空白字符
     "diffEditor.ignoreTrimWhitespace": true,
 
-    //
+    // 编辑器中，快速提示框的位置
     "editor.snippetSuggestions": "top",
 
     // 字号
@@ -149,6 +154,10 @@
             ]
         }
     },
+
+    // 禁止提交匿名数据（需要重新启动软件）
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false, // 禁止提交软件崩溃报告
 
     //--------------------------------------------------
     // 内置插件配置

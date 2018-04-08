@@ -4,6 +4,8 @@
 	</a>
 </p>
 
+当前版本：`v1.22.1`
+
 最终效果预览
 
 ![Visual Studio Code](./preview.png "Visual Studio Code")
@@ -72,11 +74,11 @@
         "backgroundColor : {color}; opacity: 0.5"
     ],
     ```
- 
+
 - Insert Date String
 
  	> 插入日期时间
- 	
+
  	```
     // 插入日期时间 command + shift + i
     //  DDDD, MMMM D, YYYY A HH:mm:ss -> Tuesday, April 3, 2018 PM 02:35:08
