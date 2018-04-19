@@ -113,19 +113,6 @@
 
 > js 语法检查
 
-添加用户设置：
-
-```json
-"javascript.validate.enable" : false,
-"eslint.autoFixOnSave": true, // 保存时修复
-// "eslint.trace.server": "messages",// 输出 ESLint 执行时的 log，ESLint 不生效的时候可以启用看看
-"eslint.validate": [ // 配置检查的文件类型
-    "javascript",
-    "javascriptreact",
-    "html"
-],
-```
-
 如下设置
 
 1. 安装插件、重启；
@@ -180,5 +167,18 @@
 	    }
 	};
 	```
-	
-以上配置参照自 [AlloyTeam ESLint 配置指南](http://www.alloyteam.com/2017/08/13065/)
+
+5. 添加用户设置：
+
+	```json
+	"javascript.validate.enable" : false,
+	"eslint.autoFixOnSave": true, // 保存时修复
+	// "eslint.trace.server": "messages",// 输出 ESLint 执行时的 log，ESLint 不生效的时候可以启用看看
+	"eslint.validate": [ // 配置检查的文件类型
+	    "javascript",
+	    "javascriptreact",
+	    "html"
+	],
+	```
+
+说明：以上配置参照自 [AlloyTeam ESLint 配置指南](http://www.alloyteam.com/2017/08/13065/)，更多内容请查看原文。
