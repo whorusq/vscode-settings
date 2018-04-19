@@ -159,15 +159,14 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false, // 禁止提交软件崩溃报告
 
+    // 文件关联
+    "files.associations": {
+        "*.wxss": "css"
+    },
+
     //--------------------------------------------------
     // 内置插件配置
     //--------------------------------------------------
-
-    // Emmet
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-    },
 
     // html 中 style 属性里写 css 快速提示
     "[html]": {
@@ -179,4 +178,9 @@
         "editor.quickSuggestionsDelay": 500
     },
 
+    // Emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    }
 }
