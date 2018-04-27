@@ -25,16 +25,16 @@
 以下是一些推荐的插件及基本配置，详细说明及配置项参见各插件对应的文档。
 
 
-- [Paste and Indent]() *带格式的粘贴*
+- [Paste and Indent](#paste-and-indent) *带格式的粘贴*
 - Alignment *代码对齐格式化，同 sublime text 3*
 - Docker *Docker 相关文件高亮、语法检查、一些命令行工具等*
 - Git History *Git 功能增加，查看日志、文件历史、提交比较等*
-- [PHP IntelliSense]() *PHP 语法检查、提示加强等*
+- [PHP IntelliSense](#php-intellisense) *PHP 语法检查、提示加强等*
 - [PHP Debug](./php_xdebug.md) *PHP 断点调试*
 - PHP DocBlocker *PHP 快速注释工具*
-- [Bracket Pair Colorizer]() *括号高亮*
-- [Insert Date String]() *插入日期时间*
-- [ESLint]() *js 语法检查*
+- [Bracket Pair Colorizer](#bracket-pair-colorizer) *括号高亮*
+- [Insert Date String](#insert-date-string) *插入日期时间*
+- [ESLint](#eslint) *js 语法检查*
 - JavaScript (ES6) snippets *ES6 代码片段快捷提示*
 - Log File Highlighter *日志文件高亮*
 - Output Colorizer *在 Output 面板高亮日志输出*
