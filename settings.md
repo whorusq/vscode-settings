@@ -1,3 +1,15 @@
+settings.json 文件物理存储位置
+
+- Windows: `%APPDATA%\Code\User\settings.json`
+- Mac: `$HOME/Library/Application Support/Code/User/settings.json`
+- Linux: `$HOME/.config/Code/User/settings.json`
+
+
+依次点击菜单 `Code > Preferences > Settings` 或 快捷键 `command + ,` 进行设置。
+
+示例：
+
+```
 {
     //--------------------------------------------------
     // 软件基本设置
@@ -184,3 +196,4 @@
         "javascript": "javascriptreact",
     }
 }
+```

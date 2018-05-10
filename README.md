@@ -10,7 +10,7 @@
 
 ![Visual Studio Code](./preview.png "Visual Studio Code")
 
-> 注意：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 定制，详见[自定义配置](./settings.json)。
+> 注意：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 定制，详见[自定义配置](./settings.md)。
 
 ### 替代图标
 
