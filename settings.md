@@ -28,9 +28,11 @@ settings.json 文件物理存储位置
     // 隐藏左侧边栏上的 OpenEditors
     "explorer.openEditors.visible": 0,
 
-    // terminal 光标样式
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
+    // 字号
+    "editor.fontSize": 14,
+
+    // 字体
+    // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
 
     // 软件主题配色
     "workbench.iconTheme": "material-icon-theme", // 图标主题
@@ -69,6 +71,8 @@ settings.json 文件物理存储位置
             "editorCursor.foreground": "#7bfc5bb9",
             // 当前行
             "editor.lineHighlightBackground": "#32363d",
+            //
+            // "editorIndentGuide.activeBackground": "#5b99fc33",
             // 行号栏的当前行
             "editorLineNumber.activeForeground": "#9CA5B4",
             // 行号
@@ -87,7 +91,7 @@ settings.json 文件物理存储位置
             // 侧边栏中一块区域的标题
             "sideBarSectionHeader.background": "#32363d",
             // 区域获取焦点时
-            "focusBorder": "#5b99fc36"
+            "focusBorder": "#5b99fc36",
         }
     },
 
@@ -101,7 +105,7 @@ settings.json 文件物理存储位置
     "workbench.statusBar.feedback.visible": false,
 
     // 左侧列表显示横向滚动条（需要重新启动软件）
-    "workbench.tree.horizontalScrolling": true,
+    // "workbench.tree.horizontalScrolling": true,
 
     // 隐藏 tab 栏文件名左侧的文件类型图标
     // "workbench.editor.showIcons": false,
@@ -118,18 +122,16 @@ settings.json 文件物理存储位置
     // 编辑器中，快速提示框的位置
     "editor.snippetSuggestions": "top",
 
-    // 字号
-    "editor.fontSize": 14,
-
-    // 字体
-    // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-
     // 每行输入字符长度提示线
     "editor.rulers": [80, 100],
 
     // 光标宽度
     "editor.cursorWidth": 2,
     "editor.cursorBlinking": "smooth",
+
+    // terminal 光标样式
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
 
     // 当前行对应的行号栏也高亮显示
     "editor.renderLineHighlight": "all",
@@ -144,7 +146,7 @@ settings.json 文件物理存储位置
     // 禁止滚动到文件最后一行后还能继续滚动
     "editor.scrollBeyondLastLine": false,
 
-    // 禁止连接文字可点击，取消下划线
+    // 禁止链接文字可点击，取消下划线
     "editor.links": false,
 
     // 基于编辑器设置的颜色主题，自定义语法着色
@@ -169,11 +171,33 @@ settings.json 文件物理存储位置
 
     // 禁止提交匿名数据（需要重新启动软件）
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false, // 禁止提交软件崩溃报告
+    "telemetry.enableCrashReporter": false,
 
-    // 文件关联
+    // 自动保存设置
+    // "files.autoSave": "afterDelay",
+    // "files.autoSaveDelay": 1000,
+
+    // 自定义文件关联
     "files.associations": {
-        "*.wxss": "css"
+        "*.wxss": "css",
+        "*.html": "php"
+    },
+
+    // 搜索时需要忽略的文件或目录
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/.svn": true,
+        "**/.git": true
+    },
+
+    // 忽略工程打开的文件或目录
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
     },
 
     //--------------------------------------------------

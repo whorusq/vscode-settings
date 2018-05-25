@@ -4,26 +4,33 @@
 	</a>
 </p>
 
-当前版本：`v1.22.2`
+最新版本：`v1.23`
 
-最终效果预览
+效果预览：
 
 ![Visual Studio Code](./preview.png "Visual Studio Code")
 
-> 注意：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 定制，详见[自定义配置](./settings.md)。
+> 注意：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 进行定制，详见自定义配置。
 
-### 替代图标
+### 1. 推荐自定义配置
 
-[点击这里预览](./icons/README.md)
+[点击这里](./settings.md)
 
-### 第三方插件
+### 2. 替代图标
+
+[点击这里](./icons/README.md)
+
+### 3. 第三方插件
 
 
 
-> **安装方式：**`Cmd + p` 输入 `ext install [插件名或关键字]` 回车，根据搜索到的插件列表，查找需要的插件，点击 `Install` ，插件安装好之后，点击 `reload` 重新加载，或完全关闭 vscode 重新打开。
+> **如何安装插件？：**
+> 
+> 1. `command + p` 输入 `ext install [紧跟插件名或关键字]` 然后回车；
+> 2. 根据搜索到的插件列表，查找需要的插件，点击 `Install` ；
+> 3. 插件安装好之后，点击 `reload` 重新加载，或完全关闭 vscode 重新打开。
 
 以下是一些推荐的插件及基本配置，详细说明及配置项参见各插件对应的文档。
-
 
 - [Paste and Indent](#paste-and-indent) *带格式的粘贴*
 - Alignment *代码对齐格式化，同 sublime text 3*
