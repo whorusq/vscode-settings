@@ -1,16 +1,30 @@
 <p align="center">
 	<a href="https://code.visualstudio.com">
-		<img src="./icons/vscode.png" attr="rsync logo" title="官网：https://www.docker.com">
+		<img src="./icons/vscode.png" attr="vscode logo" title="官网：https://code.visualstudio.com">
 	</a>
 </p>
 
 最新版本：`v1.23`
+
+官网：[https://code.visualstudio.com](https://code.visualstudio.com)
 
 效果预览：
 
 ![Visual Studio Code](./preview.png "Visual Studio Code")
 
 > 注意：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 进行定制，详见自定义配置。
+
+### 索引
+
+- 1. [推荐自定义配置](#1-主题及配色方案)
+- 2. [替代图标](#2-替代图标)
+- 3. [第三方插件](#3-第三方插件)
+	- 3.1. [如何安装插件？](#31-如何安装插件)
+	- 3.2. [推荐插件及配置](#32-推荐插件及配置)
+- 4. [快捷键](#4-快捷键)
+- 5. [其它](#5-其它)
+
+---
 
 ### 1. 推荐自定义配置
 
@@ -22,13 +36,13 @@
 
 ### 3. 第三方插件
 
+#### 3.1. 如何安装插件？
 
+1. `command + p` 输入 `ext install [紧跟插件名或关键字]` 然后回车；
+2. 根据搜索到的插件列表，查找需要的插件，点击 `Install` ；
+3. 插件安装好之后，点击 `reload` 重新加载，或完全关闭 vscode 重新打开。
 
-> **如何安装插件？：**
-> 
-> 1. `command + p` 输入 `ext install [紧跟插件名或关键字]` 然后回车；
-> 2. 根据搜索到的插件列表，查找需要的插件，点击 `Install` ；
-> 3. 插件安装好之后，点击 `reload` 重新加载，或完全关闭 vscode 重新打开。
+#### 3.2. 推荐插件及配置
 
 以下是一些推荐的插件及基本配置，详细说明及配置项参见各插件对应的文档。
 
@@ -178,3 +192,11 @@
 	```
 	
 说明：以上配置参照自 [AlloyTeam ESLint 配置指南](http://www.alloyteam.com/2017/08/13065/)，更多内容请查看原文。
+
+
+### 4. 快捷键
+
+
+### 5. 其它
+
+
