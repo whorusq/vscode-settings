@@ -26,7 +26,7 @@
         <td>剪切鼠标选择的内容或当前行</td>
         <td>editor.action.clipboardCutAction</td>
     </tr>
-    <tr>
+    <tr>
         <td>⌘C</td>
         <td>复制鼠标选择的内容或当前行</td>
         <td>editor.action.clipboardCopyAction</td>
