@@ -16,13 +16,13 @@
 
 ### 索引
 
-- 1. [推荐自定义配置](#1-主题及配色方案)
-- 2. [替代图标](#2-替代图标)
-- 3. [第三方插件](#3-第三方插件)
-	- 3.1. [如何安装插件？](#31-如何安装插件)
-	- 3.2. [推荐插件及配置](#32-推荐插件及配置)
-- 4. [快捷键](#4-快捷键)
-- 5. [其它](#5-其它)
+1. [推荐自定义配置](#1-主题及配色方案)
+2. [替代图标](#2-替代图标)
+3. [快捷键](#3-快捷键)
+4. [第三方插件](#4-第三方插件)
+	- 4.1. [如何安装插件？](#41-如何安装插件)
+	- 4.2. [推荐插件及配置](#42-推荐插件及配置)
+5. [其它](#5-其它)
 
 ---
 
@@ -34,15 +34,21 @@
 
 [点击这里](./icons/README.md)
 
-### 3. 第三方插件
+### 3. 快捷键
 
-#### 3.1. 如何安装插件？
+[点击这里](./keys.md)
 
-1. `command + p` 输入 `ext install [紧跟插件名或关键字]` 然后回车；
+### 4. 第三方插件
+
+#### 4.1. 如何安装插件？
+
+1. 搜索扩展
+	- 方式一：`⌘P` 输入 `ext install [紧跟插件名或关键字]` 然后回车；
+	- 方式二：左侧边栏单击扩展图标或使用快捷键 `⇧⌘X`，然后在搜索框输入要安装的插件名称；
 2. 根据搜索到的插件列表，查找需要的插件，点击 `Install` ；
-3. 插件安装好之后，点击 `reload` 重新加载，或完全关闭 vscode 重新打开。
+3. 插件安装好之后，点击 `Reload` 重新加载，或完全关闭 vscode 重新打开。
 
-#### 3.2. 推荐插件及配置
+#### 4.2. 推荐插件及配置
 
 以下是一些推荐的插件及基本配置，详细说明及配置项参见各插件对应的文档。
 
@@ -67,7 +73,7 @@
 #### Paste and Indent
 
 1. 修改文件 keybindings.json，追加以下设置（ctrl+v 带格式；ctrl+shift+v 原样）
-	
+
 	```json
 	[
 	    {
@@ -87,15 +93,15 @@
 	    }
 	]
 	```
-	
+
 2. 修改用户配置 Preferences > Settings，追加如下设置
-	
+
 	```json
 	"pasteAndIndent.selectAfter": true,
 	```
 
 #### PHP IntelliSense
-	
+
 ```json
 "php.executablePath": "/usr/bin/php",
 "php.validate.run": "onType",
@@ -103,7 +109,7 @@
 ```
 
 #### Bracket Pair Colorizer
-	
+
 ```json
 "editor.matchBrackets": false,
 "bracketPairColorizer.highlightActiveScope": true,
@@ -124,22 +130,22 @@
 ```
 
 #### ESLint
-	
+
 1. 安装插件、重启；
 2. 输入命令 `npm install -g eslint` 全局安装 `eslint` ；
 3. 安装对应语言的规则，如 react 的
-	
+
 	```
 	npm install --save-dev eslint-config-alloy eslint-plugin-react babel-eslint
 	```
-	
+
 	其中：
-	
+
 	- `eslint-config-alloy` AlloyTeam 出的通用基础语法
 	- `eslint-plugin-react` react 相关语法
 	- `babel-eslint` es2015 语法
 4. 在项目更目录下添加 `.eslintrc.js` 文件，并追加以下内容：
-	
+
 	```javascript
 	module.exports = {
 	    extends: [
@@ -177,9 +183,9 @@
 	    }
 	};
 	```
-	
+
 5. 添加用户设置：
-	
+
 	```json
 	"javascript.validate.enable" : false,
 	"eslint.autoFixOnSave": true, // 保存时修复
@@ -190,11 +196,8 @@
 	    "html"
 	],
 	```
-	
+
 说明：以上配置参照自 [AlloyTeam ESLint 配置指南](http://www.alloyteam.com/2017/08/13065/)，更多内容请查看原文。
-
-
-### 4. 快捷键
 
 
 ### 5. 其它
