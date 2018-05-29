@@ -7,7 +7,7 @@
 | ⌃ control | ctrl
 | ⇪ caps lock | Caps Lock
 | ⌅ enter | enter
-| ⎋ esc | esc
+| ⎋ esc | esc
 
 ### 常用快捷键列表：
 
@@ -53,7 +53,7 @@
     </tr>
     <tr>
         <td>⌥↓</td>
-        <td>向下移动当前行或已选择的行</td>
+        <td>向下移动当前行或已选择的行</td>
         <td>editor.action.moveLinesDownAction</td>
     </tr>
     <tr>
@@ -63,17 +63,17 @@
     </tr>
     <tr>
         <td>⇧⌥↓</td>
-        <td>在下部复制并插入当前行或已选择的行</td>
+        <td>在下部复制并插入当前行或已选择的行</td>
         <td>editor.action.copyLinesDownAction</td>
     </tr>
     <tr>
         <td>⇧⌥↑</td>
-        <td>在上部复制并插入当前行或已选择的行</td>
+        <td>在上部复制并插入当前行或已选择的行</td>
         <td>editor.action.copyLinesUpAction</td>
     </tr>
     <tr>
         <td>⌘D</td>
-        <td>鼠标选择一个单词或语句块，使用此快捷键跳转并选中下一个相同的内容</td>
+        <td>鼠标选择一个单词或语句块，使用此快捷键跳转并选中下一个相同的内容</td>
         <td>editor.action.addSelectionToNextFindMatch</td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>⌘⌥F</td>
+        <td>⌘⌥F</td>
         <td>当前文件中查找并替换</td>
         <td></td>
     </tr>
@@ -160,7 +160,7 @@
     </tr>
     <tr>
         <td>⌘↓</td>
-        <td>文件头部</td>
+        <td>文件头部</td>
         <td>cursorTop</td>
     </tr>
     <tr>
@@ -190,7 +190,7 @@
     </tr>
     <tr>
         <td rowspan="11">文件</td>
-        <td>⌘N</td>
+        <td>⌘N</td>
         <td>新建文件</td>
         <td>workbench.action.files.newUntitledFile</td>
     </tr>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
         <td>⌃⇧G</td>
-        <td>显示侧边版本控制栏</td>
+        <td>显示侧边版本控制栏</td>
         <td>workbench.view.scm</td>
     </tr>
     <tr>
@@ -308,7 +308,7 @@
     </tr>
     <tr>
         <td>⌃Q</td>
-        <td>在不同面板间快速切换</td>
+        <td>在不同面板间快速切换</td>
         <td>workbench.action.quickOpenView</td>
     </tr>
     <tr>
