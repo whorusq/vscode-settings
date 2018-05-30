@@ -1,17 +1,20 @@
-### 不同操作系统下特殊按键对比说明：
+本文以 macOS 系统作为示例说明，键位对应关系如下：
+
 |  macOS | Windows
 | ---|---
-| ⌘ command | win
+| ⌘ command | ctrl
 | ⌥ option | alt
 | ⇧ shift | shift
-| ⌃ control | ctrl
-| ⇪ caps lock | Caps Lock
-| ⌅ enter | enter
-| ⎋ esc | esc
 
-### 常用快捷键列表：
+### 官方完整键位表
 
-参照：[https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+- [macOS](./files/keyboard-shortcuts-macos.pdf)
+- [Windows](./files/keyboard-shortcuts-windows.pdf)
+- [Linux](./files/keyboard-shortcuts-linux.pdf)
+
+更多内容，请参考：[https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+
+### 常用快捷键：
 
 <table>
     <tr>
