@@ -4,15 +4,15 @@
 	</a>
 </p>
 
-最新版本：`v1.30.2`
+> 最新版本：[`v1.33.x`](https://code.visualstudio.com/updates)
 
-官网：[https://code.visualstudio.com](https://code.visualstudio.com)
+> 官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)
 
 效果预览：
 
 ![Visual Studio Code](./preview.png "Visual Studio Code")
 
-> 注意：预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 进行定制，详见自定义配置。
+> ⚠️ 注意：此预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 进行定制，详见自定义配置。
 
 ### 索引
 
@@ -52,26 +52,29 @@
 
 以下是一些推荐的插件及基本配置，详细说明及配置项参见各插件对应的文档。
 
-- 【[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)】 *同步设置、主题、文件图标、快捷键等*
-- 【[Paste and Indent](#paste-and-indent)】 *带格式的粘贴*
-- 【Alignment】 *代码对齐格式化，同 sublime text 3*
-- 【Docker】 *Docker 相关文件高亮、语法检查、一些命令行工具等*
-- 【Git History】 *Git 功能增加，查看日志、文件历史、提交比较等*
-- 【[PHP IntelliSense](#php-intellisense)】 *PHP 语法检查、提示加强等*
-- 【[PHP Debug](./php_xdebug.md)】 *PHP 断点调试*
-- 【PHP DocBlocker】 *PHP 快速注释工具*
-- 【[Bracket Pair Colorizer](#bracket-pair-colorizer)】 *括号高亮*
-- 【[Insert Date String](#insert-date-string)】 *插入日期时间*
-- 【[ESLint](#eslint)】 *js 语法检查*
-- 【JavaScript (ES6) snippets】 *ES6 代码片段快捷提示*
-- 【Log File Highlighter】 *日志文件高亮*
-- 【Output Colorizer】 *在 Output 面板高亮日志输出*
-- 【Markdown Preview Github Styles】 *Markdown 预览窗口使用 Github 的样式*
-- 【SVN】 *追加 SVN 的一些操作*
-- ...
+| 插件名称 | 说明 | 备注 |
+| --- | --- | --- |
+| [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) | 同步设置、主题、文件图标、快捷键等 |  |
+| [Paste and Indent](#paste-and-indent) | 带格式的粘贴 |  |
+| Alignment | 代码对齐格式化，同 sublime text 3 |  |
+| Docker | Docker 相关文件高亮、语法检查、一些命令行工具等 |  |
+| Git History | Git 功能增强，查看日志、文件历史、提交比较等 |  |
+| [PHP IntelliSense](#php-intellisense) | PHP 语法检查、提示加强等 |  |
+| [PHP Debug](./php_xdebug.md) | PHP 断点调试 |  |
+| PHP DocBlocker | PHP 快速注释工具 |  |
+| [Bracket Pair Colorizer](#bracket-pair-colorizer) | 括号高亮 |  |
+| [Insert Date String](#insert-date-string) | 插入日期时间 |  |
+| [ESLint](#eslint) | JS 语法检查 |  |
+| JavaScript (ES6) snippets | ES6 代码片段快捷提示 |  |
+| Log File Highlighter | 日志文件高亮 |  |
+| Output Colorizer | 在 Output 面板高亮日志输出 |  |
+| Markdown Preview Github Styles | Markdown 预览窗口使用 Github 的样式 |  |
+| SVN | 追加 SVN 的一些操作 |  |
+| ... |  |  |
 
+下面是一些插件的推荐设置：
 
-#### Paste and Indent
+##### Paste and Indent
 
 1. 修改文件 keybindings.json，追加以下设置（ctrl+v 带格式；ctrl+shift+v 原样）
 
@@ -101,7 +104,7 @@
 	"pasteAndIndent.selectAfter": true,
 	```
 
-#### PHP IntelliSense
+##### PHP IntelliSense
 
 ```json
 "php.executablePath": "/usr/bin/php",
@@ -109,7 +112,7 @@
 "php.suggest.basic": false,
 ```
 
-#### Bracket Pair Colorizer
+##### Bracket Pair Colorizer
 
 ```json
 "editor.matchBrackets": false,
@@ -122,7 +125,7 @@
 ],
 ```
 
-#### Insert Date String
+##### Insert Date String
 
 ```json
 // 插入日期时间 command + shift + i
@@ -130,7 +133,7 @@
 "insertDateString.format": "YYYY/MM/DD hh:mm:ss"
 ```
 
-#### ESLint
+##### ESLint
 
 1. 安装插件、重启；
 2. 输入命令 `npm install -g eslint` 全局安装 `eslint` ；
@@ -203,4 +206,4 @@
 
 ### 5. 其它
 
-
+暂无
