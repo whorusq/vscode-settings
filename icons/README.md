@@ -44,15 +44,8 @@
 </p>
 
 <p>
-    <a href="./vscode1.png">
-        <img src="./vscode1.png" width="256" height="256" alt="vscode icon"  />
+    <a href="./neon-infinity.png">
+        <img src="./neon-infinity.png" width="256" height="256" alt="vscode icon"  />
     </a>
-    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode1.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode1.icns">ICNS 下载</a>
-</p>
-
-<p>
-    <a href="./vscode2.png">
-        <img src="./vscode2.png" width="256" height="256" alt="vscode icon"  />
-    </a>
-    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode2.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode2.icns">ICNS 下载</a>
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/neon-infinity.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/neon-infinity.icns">ICNS 下载</a>
 </p>
