@@ -1,10 +1,15 @@
 
+> ⚠️ 注意：这里收集的图标都来自网络，如果涉及版权，请联系我删除。
 >
-> 当前目录中为 png/icns 格式的图片
->
-> macOS 系统可直接使用 icns 格式，windows 系统请下载后使用工具转换成 ico 格式
->
-> 推荐一个在线转换工具：[iConvert Icons](https://iconverticons.com/online/)
+> Note: The icons collected here are from the network. If copyright is involved, please contact me to delete.
+
+---
+
+### 使用说明
+
+当前目录中为 `png/icns` 格式的图片，macOS 系统可直接使用 `icns` 格式，windows 系统请下载 `png` 后使用工具转换成 `ico` 格式。
+
+推荐一个在线转换工具：[iConvert Icons](https://iconverticons.com/online/)
 >
 
 <p>
@@ -13,6 +18,22 @@
     </a>
     （官方默认）
     <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode.icns">ICNS 下载</a>
+</p>
+
+<p>
+    <a href="./vscode-logo-stable.png">
+        <img src="./vscode-logo-stable.png" width="256" height="256" alt="vscode icon"  />
+    </a>
+    （最新官方稳定版默认 logo，版本 v1.35+）
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode-logo-stable.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode-logo-stable.icns">ICNS 下载</a>
+</p>
+
+<p>
+    <a href="./vscode-logo-insiders.png">
+        <img src="./vscode-logo-insiders.png" width="256" height="256" alt="vscode icon"  />
+    </a>
+    （最新官方测试版默认 logo，版本 v1.35+）
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/vscode-logo-stable.png">PNG下载</a>
 </p>
 
 <p>

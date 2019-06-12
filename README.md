@@ -1,10 +1,10 @@
 <p align="center">
 	<a href="https://code.visualstudio.com">
-		<img src="./icons/vscode.png" attr="vscode logo" title="官网：https://code.visualstudio.com">
+		<img src="./icons/vscode-logo-stable.png" attr="vscode logo" title="官网：https://code.visualstudio.com">
 	</a>
 </p>
 
-> 最新版本：[`v1.33.x`](https://code.visualstudio.com/updates)
+> 最新版本：[`v1.35`](https://code.visualstudio.com/updates/v1_35)
 
 > 官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)
 
@@ -12,7 +12,7 @@
 
 ![Visual Studio Code](./preview.png "Visual Studio Code")
 
-> ⚠️ 注意：此预览图中的最终效果，基于图标主题 **Material Icon Theme** 和 颜色主题 **One Monokai Theme** 进行定制，详见自定义配置。
+> ⚠️ 注意：此预览图中的最终效果，基于图标主题 **「Material Icon Theme」** 和 颜色主题 **「One Monokai Theme」** 进行定制，详见下文中的自定义配置部分。
 
 ### 索引
 
