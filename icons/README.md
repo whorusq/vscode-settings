@@ -37,6 +37,34 @@
 </p>
 
 <p>
+    <a href="./big_sur_dark_1.png">
+        <img src="./big_sur_dark_1.png" width="256" height="256" alt="vscode icon"  />
+    </a> Big Sur style - dark 1
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_dark_1.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_dark_1.icns">ICNS 下载</a>
+</p>
+
+<p>
+    <a href="./big_sur_dark_2.png">
+        <img src="./big_sur_dark_2.png" width="256" height="256" alt="vscode icon"  />
+    </a> Big Sur style - dark 2
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_dark_2.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_dark_2.icns">ICNS 下载</a>
+</p>
+
+<p>
+    <a href="./big_sur_dark_3.png">
+        <img src="./big_sur_dark_3.png" width="256" height="256" alt="vscode icon"  />
+    </a> Big Sur style - dark 3
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_dark_3.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_dark_3.icns">ICNS 下载</a>
+</p>
+
+<p>
+    <a href="./big_sur_light_4.png">
+        <img src="./big_sur_light_4.png" width="256" height="256" alt="vscode icon"  />
+    </a> Big Sur style - dark 3
+    <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_light_4.png">PNG下载</a> | <a href="https://github.com/whorusq/vscode-settings/blob/master/icons/big_sur_light_4.icns">ICNS 下载</a>
+</p>
+
+<p>
     <a href="./VSCodula.png">
         <img src="./VSCodula.png" width="256" height="256" alt="vscode icon"  />
     </a>
