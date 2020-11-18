@@ -4,7 +4,7 @@
 	</a>
 </p>
 
-> 最新版本：[`v1.35`](https://code.visualstudio.com/updates/v1_35)
+> 最新版本：[`v1.51`](https://code.visualstudio.com/updates/v1_51)
 
 > 官网地址：[https://code.visualstudio.com](https://code.visualstudio.com)
 
@@ -54,7 +54,7 @@
 
 | 插件名称 | 说明 | 备注 |
 | --- | --- | --- |
-| [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) | 同步设置、主题、文件图标、快捷键等 |  |
+| [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) | 同步设置、主题、文件图标、快捷键等（最新版本已集成，此插件不再需要） |  |
 | [Paste and Indent](#paste-and-indent) | 带格式的粘贴 |  |
 | Alignment | 代码对齐格式化，同 sublime text 3 |  |
 | Docker | Docker 相关文件高亮、语法检查、一些命令行工具等 |  |
